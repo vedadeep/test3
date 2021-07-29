@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style_home.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+                <div class="navbar-links">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about_us.html">About us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                       
+                    </ul>
+                </div>
+            </nav>
+        </div><!--container-->
+    </header>
+    <section>
+        <div class="booking-form-w3layouts">
+        
+        <!--form name="f1" action = "authen.php" onsubmit = "return validation()" method = "POST"-->
+        <form name="f1" action = "connect_home.php" onsubmit = "return validation()" method = "POST">   
+            
+
+            <h3 class="sub-heading-agileits">POLY PARK</h3>
+            <div class="main-flex-w3ls-sectns">
+                <div class="field-agileinfo-spc form-w3-agile-text1">
+                    <input type="text" name="Surname" placeholder="Surname" required="">
+                </div>
+                <div class="field-agileinfo-spc form-w3-agile-text1">
+                    <input type="text" name="Name" placeholder="Name" required="">
+                </div>
+               
+             </div><!--class main-flex-w3ls-sectns" -->
+           
+            <input type="submit" name="submit" value="         Log in         ">
+            <!--div class="clear"></div-->
+            <div class="clear"></div>
+        
+        </form>
+
+    </div>
+    <!--div class="clear"></div-->
+    <div class="booking-form-w3layouts">
+        <a href="createNew.html">
+            <input type="submit" value="Create new account">
+        </a>
+        <div class="clear"></div>
+    </div>
+        
+    
+        
+    </section>
+
+</body>
+</html>
